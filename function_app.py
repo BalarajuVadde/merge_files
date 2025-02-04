@@ -27,6 +27,6 @@ from transformation_files.function import http_trigger
 app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
 
 @app.route(route="mdm/merge/http_trigger")
-def run_http_trigger(requ: func.HttpRequest) -> func.HttpResponse:
-    return http_trigger(requ)
+def run_http_trigger(req: func.HttpRequest) -> func.HttpResponse:
+    return http_trigger(req)
 
