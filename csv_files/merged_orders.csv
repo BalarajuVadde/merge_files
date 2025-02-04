@@ -1,0 +1,11 @@
+OrderID,CustomerID,OrderDate,TotalAmount,Name,Email,City
+101.0,1,2025-01-01,200.5,Alice,alice@gmail.com,New York
+103.0,1,2025-01-05,180.0,Alice,alice@gmail.com,New York
+107.0,1,2025-01-15,300.0,Alice,alice@gmail.com,New York
+102.0,2,2025-01-03,350.75,Bob,bob@gmail.com,Los Angeles
+104.0,3,2025-01-07,90.0,Charlie,charlie@gmail.com,Chicago
+105.0,4,2025-01-10,250.25,Diana,diana@gmail.com,Houston
+106.0,5,2025-01-12,125.5,Eve,eve@gmail.com,Phoenix
+,6,,,Frank,frank@gmail.com,Miami
+,7,,,bala,bala@gmail.com,Ongole
+108.0,8,2025-02-22,400.0,raju,raju@gmail.com,Prakasam
