@@ -1,13 +1,13 @@
 import azure.functions as func
 import logging
 import pandas as pd
-from transformation_files.merge_files import merge_csv_files
+from transformation_files.merge_files import merge_csv_file
 
 def http_trigger(req: func.HttpRequest) -> func.HttpResponse:
     logging.info("Python HTTP trigger function processed a request.")
 
     try:
-        merged_file_path = merge_csv_files()
+        merged_file_path = merge_csv_file()
         merged_df = pd.read_csv(merged_file_path)
         merged_json = merged_df.to_json(orient="records")
 

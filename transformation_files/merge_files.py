@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-def merge_csv_files():
+def merge_csv_file():
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     input_dir = os.path.join(base_dir, "csv_files")
     output_file = os.path.join(input_dir, "merged_orders.csv")
